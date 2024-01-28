@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+}
+.container{
+    /* display: grid; */
+    grid-template-columns: 1fr 5fr 1fr;
+    grid-template-rows: 1fr 1fr  1fr 5fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+
+.gamebox {
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    grid-column-start: 2;
+    grid-row-start: 4;
+    
+}
+
+.gb button {
+    height: 100px;
+    width: 100px;
+}
+
+.gb button  {
+    font-size: 80px;
+    font-weight: 800;
+    font-family:'Courier New', Courier, monospace;
+}
+.header {
+    grid-column-start: 2;
+    text-align: center;
+    background-color: red;
+    width: 50%;
+    border-radius: 30px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.footer {
+    grid-column-start: 2;
+    grid-row-start: 5;
+
+}
+
+.player-turn {
+    grid-column-start: 2;
+    
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    place-items: center;
+} 
+
+.first-player-section {
+    grid-column-start: 2;
+    
+    gap: 20px;
+}
+
+.second-player-section {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    
+}
+form h2 {
+    grid-column-start: 2;
+    background-color: bisque;
+    padding: 10px 15px;
+    border-radius: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+form button {
+    grid-column-start: 2;
+    grid-row-start: 4;
+    height: 30px;
+    width: 80px;
+    place-self: bottom;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: greenyellow;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+
+form button:hover {
+    background-color: grey;
+    
+}
+form button:active {
+    background-color: aquamarine;
+    height: 25px;
+    width: 80px;
+    transition: ease-in 100ms;
+}
+legend {
+    margin: 10px;
+    
+}
+
+input {
+ border: 2px solid greenyellow;
+ border-radius: 20px;
+ height: 30px;
+ padding-left: 10px;
+ font-size: 20px;
+}
+
+.divbtn p{
+    margin: 0px;
+    background-color: aqua;
+    height: 100%;
+}
+.divbtn {
+    padding: 0px;
+    margin: 0px;
+    border: 1px solid gold;
+    background-color: blueviolet;
+}
+.game-board {
+    grid-row-start: 3;
+    grid-column-start: 2;
+}
+
+.divbtn:active{
+    background-color: aqua;
+    border-color: aqua;
+}
+
+.gb {
+    height: 100px;
+}
+
+.restart {
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-radius: 10px;
+}
+.hide-button {
+    background-color: greenyellow;
+    border-color: greenyellow;
+    border-radius: 10px;
+
+}
+
+.player-turn {
+    background-color: antiquewhite;
+    padding: 0px 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.game-board{
+    background-color: yellow;
+    padding: 0px 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+
+.form-fill {
+    background-color: grey;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}

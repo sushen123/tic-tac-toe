@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" style="display: none;">
+        <div class="header">
+            <h3>Tic Tac Toe</h3>
+        </div>
+        <div class="player-turn"><p class="player-turn-text"></p></div>
+        <div class="game-board"><p class="game-result"></p></div>
+        <div class="gamebox">
+            <div class="gb one"><button class="divbtn" id="one-0-0"></button></div>
+            <div class="gb two"><button class="divbtn" id="two-0-1"></button></div>
+            <div class="gb three"><button class="divbtn" id="three-0-2"></button></div>
+            <div class="gb four"><button  class="divbtn"id="four-1-0"></button></div>
+            <div class="gb five"><button  class="divbtn"id="five-1-1"></button></div>
+            <div class="gb six"><button class="divbtn" id="six-1-2"></button></div>
+            <div class="gb seven"><button class="divbtn" id="seven-2-0"></button></div>
+            <div class="gb eight"><button class="divbtn" id="eight-2-1"></button></div>
+            <div class="gb nine"><button class="divbtn" id="nine-2-2"></button></div>
+        </div>
+        <div class="footer">
+            <button class="restart">Restart</button>
+            <button class="hide-button">Change Player Name</button>
+        </div>
+    </div>
+    <div class="form-fill">
+        <form>
+            <h2>Enter Player's Name</h2>
+            <div class="first-player-section">
+            <legend>First Player's Name</legend>
+            <input type="text" id="first-player">
+            </div>
+            <div class="second-player-section">
+            <legend>Second Player's Name</legend>
+            <input type="text" id="second-player">
+            </div>
+           <button type="submit" class="hide-button2">Start</button>
+        </form>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
